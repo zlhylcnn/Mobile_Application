@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">LoginRegisterApp</string>
+
+    <string name="hint_username">Kullanıcı Adı</string>
+    <string name="hint_password">Şifre</string>
+    <string name="button_login">Giriş Yap</string>
+    <string name="text_register_link"><u>Üye olmak için tıklayınız</u></string>
+    <string name="login_error">Kullanıcı adı veya şifre hatalı!</string>
+    <string name="login_success">Giriş başarılı!</string>
+
+    <string name="hint_password_repeat">Şifre Tekrar</string>
+    <string name="hint_email">E-posta Adresi</string>
+    <string name="text_gender">Cinsiyet:</string>
+    <string name="gender_male">Erkek</string>
+    <string name="gender_female">Kadın</string>
+    <string name="toggle_notifications">E-posta bildirimlerini kabul ediyorum</string>
+    <string name="button_save">Kaydet</string>
+    <string name="register_success">Tebrikler! Kayıt işlemini başarılı bir şekilde gerçekleştirdiniz</string>
+    <string name="register_redirect_message">3 saniye içerisinde anasayfaya yönlendirileceksiniz</string>
+    <string name="register_error_passwords_do_not_match">Şifreler uyuşmuyor!</string>
+    <string name="register_error_empty_fields">Lütfen tüm alanları doldurun.</string>
+
+    <string name="dashboard_welcome">Ana Sayfaya Hoş Geldiniz!</string>
+
+    <string-array name="cities_array">
+        <item>Şehir Seçiniz</item>
+        <item>Adana</item> <item>Ankara</item>    <item>Bursa</item> <item>İstanbul</item>
+        <item>İzmir</item>
+        <item>Trabzon</item>
+    </string-array>
+</resources>

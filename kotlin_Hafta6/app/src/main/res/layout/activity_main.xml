@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="88dp"
+        android:onClick="yazdir"
+        android:text="Tıkla"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/txtview_4" />
+
+    <TextView
+        android:id="@+id/txtview_2"
+        android:layout_width="0dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="20dp"
+        android:text=""
+        app:layout_constraintBottom_toTopOf="@+id/txtview_3"
+        app:layout_constraintEnd_toEndOf="@+id/txtview_3"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/txtview_3" />
+
+    <TextView
+        android:id="@+id/txtview_3"
+        android:layout_width="0dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="20dp"
+        android:text=""
+        app:layout_constraintBottom_toTopOf="@+id/txtview_4"
+        app:layout_constraintEnd_toEndOf="@+id/txtview_4"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/txtview_4" />
+
+    <TextView
+        android:id="@+id/txtview_1"
+        android:layout_width="0dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="20dp"
+        android:text=""
+        app:layout_constraintBottom_toTopOf="@+id/txtview_2"
+        app:layout_constraintEnd_toEndOf="@+id/txtview_2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/txtview_2" />
+
+    <TextView
+        android:id="@+id/txtview_4"
+        android:layout_width="0dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginBottom="60dp"
+        android:text=""
+        app:layout_constraintBottom_toTopOf="@+id/button_1"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/edittext_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:hint="1. sayıyı giriniz"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/edittext_2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/edittext_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="107dp"
+        android:ems="10"
+        android:hint="2. sayıyı giriniz"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
