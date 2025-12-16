@@ -1,0 +1,7 @@
+CorrelationId: b2913546-002e-4c40-a554-514ae67184ac
+UTC DateTime: 12/16/2025 07:25:03
+
+The following files/folders have not been downloaded
+0. YBSHafta11Database/.gradle/8.13/gc.properties
+1. YBSHafta11Database/.gradle/vcs-1/gc.properties
+2. YBSHafta11Database/app/build/kspCaches/debug/caches.uptodate

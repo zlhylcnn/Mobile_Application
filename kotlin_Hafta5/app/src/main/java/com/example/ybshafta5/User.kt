@@ -20,7 +20,7 @@ open class User {
         user_name = USERNAME
     }
 
-    fun getUserName(): String = user_name //Bu yapı, Kotlin'de "Tek İfadeli Fonksiyon" olarak bilinir. Bu kısaltma, fonksiyonun geleneksel (uzun) yazımının daha okunaklı bir versiyonudur:
+    fun getUserName(): String = user_name
 
     // var user_name: String? = null
     // yukarıdaki kullanımda ise kotlin diyor ki eğer en başta null

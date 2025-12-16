@@ -1,7 +1,7 @@
 package com.example.ybshafta5
 
 abstract class NewUser {
-    protected var user_name: String = ""//aynı class + miras alan sınıflar
+    protected var user_name: String = ""
     protected var user_surname: String = ""
     protected var user_age: Int = 0
 
@@ -13,7 +13,7 @@ abstract class NewUser {
 
     // Abstract metotlar sadece tanımlanır, içi doldurulmaz. Yani,
     // fonksiyonun ne amaçla kullanılacağı, hangi işlemleri yapacağı,
-    // hangi çıktıları vereceği TANIMLANMAZ!!!//sadece mşraas alınabilir içi doldurulamaz
+    // hangi çıktıları vereceği TANIMLANMAZ!!!
 
     abstract fun newShowInfo()
 

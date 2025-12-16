@@ -65,12 +65,5 @@ fun main(){
 
     // polymorphism örneği
     my_new_student_1.belong_class()
-    //Abstract class: direkt nesne oluşturamazsın, abstract metotları zorunlu override etmelisin.
-    //
-    //Open metot: isteğe bağlı override, override etmezsen orijinal metot çalışır.
-    //
-    //Polymorphism: aynı metot ismi farklı sınıflarda farklı davranabilir.
-    //
-    //Miras: abstract olsun veya olmasın, miras alan sınıf metotları kullanabilir, open/abstract kurallarına uyar.
 
 }
